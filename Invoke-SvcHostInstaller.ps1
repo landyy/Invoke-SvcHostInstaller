@@ -51,5 +51,3 @@ function Install-SvcHostService{
     $GroupMems += $ServiceName
     Set-ItemProperty $GroupRegLocation -Name $ServicePrimaryGroup -Value $GroupMems
 }
-
-Install-SvcHostService -ServiceName Example -DisplayName Example -ServiceDll C:\Windows\System32\ServiceExample.dll -ServicePrimaryGroup LocalSystemNetworkRestricted
