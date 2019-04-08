@@ -1,0 +1,3 @@
+LIBRARY		ServiceExample
+EXPORTS
+	ServiceMain	@1
